@@ -1,0 +1,83 @@
+# === TEMPORAIRES & BUILD ===
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lib
+*.lai
+*.la
+*.a
+!BlackBone.lib
+!BlackBone-d.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS-specific folders
+.vs/
+Debug/
+Release/
+
+# Compilation intermediate files
+*.ipdb
+*.iobj
+*.log
+*.cache
+*.ilk
+*.tmp
+*.idb
+*.pdb
+*.tlog
+
+# VS user-specific settings
+*.user
+*.VC.db
+*.suo
+*.opendb
+
+# === INCLUSIONS (override previous rules) ===
+
+# Garder le code source
+!*.cpp
+!*.h
+!*.hpp
+
+# Garder les fichiers Visual Studio essentiels
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+
+# Garder les métadonnées du projet
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!*.json
+
+# Garder les dossiers importants du projet
+!winreg/
+!vars/
+!vac3_bypass/
+!utils/
+!memory/
+!injector/
+!gui/
+!dependency/
