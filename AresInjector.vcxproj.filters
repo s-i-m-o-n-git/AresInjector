@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dependency\imgui\backend\imgui_impl_dx9.cpp" />
+    <ClCompile Include="dependency\imgui\backend\imgui_impl_win32.cpp" />
+    <ClCompile Include="dependency\imgui\imgui.cpp" />
+    <ClCompile Include="dependency\imgui\imgui_draw.cpp" />
+    <ClCompile Include="dependency\imgui\imgui_tables.cpp" />
+    <ClCompile Include="dependency\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="injector\injector.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="gui\Menu.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="protection.cpp" />
+    <ClCompile Include="Discord.cpp" />
+    <ClCompile Include="CheckVM.cpp" />
+    <ClCompile Include="logs.cpp" />
+    <ClCompile Include="Downloader.cpp" />
+    <ClCompile Include="main_version.h" />
+    <ClCompile Include="UpdaterExe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependency\imgui\backend\imgui_impl_dx9.h" />
+    <ClInclude Include="dependency\imgui\backend\imgui_impl_win32.h" />
+    <ClInclude Include="dependency\imgui\imconfig.h" />
+    <ClInclude Include="dependency\imgui\imgui.h" />
+    <ClInclude Include="dependency\imgui\imgui_internal.h" />
+    <ClInclude Include="dependency\imgui\imstb_rectpack.h" />
+    <ClInclude Include="dependency\imgui\imstb_textedit.h" />
+    <ClInclude Include="dependency\imgui\imstb_truetype.h" />
+    <ClInclude Include="injector\injector.hpp" />
+    <ClInclude Include="gui\Menu.hpp" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="memory\memory.hpp" />
+    <ClInclude Include="utils\utils.hpp" />
+    <ClInclude Include="vac3_bypass\vac3_bypass.hpp" />
+    <ClInclude Include="vars\vars.hpp" />
+    <ClInclude Include="winreg\winreg.hpp" />
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="skStr.h" />
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="protection.h" />
+    <ClInclude Include="Discord.h" />
+    <ClInclude Include="CheckVM.h" />
+    <ClInclude Include="Logs.h" />
+    <ClInclude Include="Downloader.h" />
+    <ClInclude Include="UpdaterExe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+</Project>
